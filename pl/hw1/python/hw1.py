@@ -7,7 +7,7 @@ sums = 0
 maximum = float('-infinity')
 minimum = float('infinity')
 
-for i in range(number_of_input):
+for _ in range(number_of_input):
     num = int(input())
     sums += num
     if num > maximum:
