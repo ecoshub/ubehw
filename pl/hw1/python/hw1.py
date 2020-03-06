@@ -6,7 +6,6 @@ number_of_input = 8
 sums = 0
 maximum = float('-infinity')
 minimum = float('infinity')
-average = 0
 
 for i in range(number_of_input):
     num = int(input())
