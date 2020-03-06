@@ -2,4 +2,4 @@
 -- platform Linux 5.4.18-1-MANJARO
 -- compiler : stack haskell compiler Version 2.2.0
 
-Prelude> "Hello, World!"
+main = putStrLn "Hello, World!"
