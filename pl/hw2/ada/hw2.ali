@@ -1,0 +1,56 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U hw2%b			hw2.adb			66e2f43b NE OO SU IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200205132932 76789da1 ada%s
+D a-except.ads		20200205132932 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200205132932 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200205132932 119b8fb3 ada.streams%s
+D a-tags.ads		20200205132932 491b781d ada.tags%s
+D a-textio.ads		20200205132932 881db35a ada.text_io%s
+D a-unccon.ads		20200205132932 0e9b276f ada.unchecked_conversion%s
+D hw2.adb		20200321090258 47503ca3 hw2%b
+D interfac.ads		20200205132932 5ab55268 interfaces%s
+D i-cstrea.ads		20200205132932 e53d8b8e interfaces.c_streams%s
+D system.ads		20200205132932 4635ec04 system%s
+D s-crtl.ads		20200205132932 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200205132932 54135002 system.exception_table%s
+D s-ficobl.ads		20200205132932 078245e4 system.file_control_block%s
+D s-imgint.ads		20200205132932 02dbe0c2 system.img_int%s
+D s-parame.ads		20200205132932 48ec542b system.parameters%s
+D s-secsta.ads		20200205132932 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200205132932 a7318a92 system.soft_links%s
+D s-stache.ads		20200205132932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200205132932 09bd3940 system.standard_library%s
+D s-stoele.ads		20200205132932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200205132932 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200205132932 34867c83 system.unsigned_types%s
+D s-valint.ads		20200205132932 48a52a3f system.val_int%s
+D s-wchcon.ads		20200205132932 1b7d22d2 system.wch_con%s
+D text_io.ads		20200205132932 21b2c898 text_io%s
+X 6 a-textio.ads
+256V13*Get_Line{string} 8|5s34
+263U14*Put_Line 8|12s33
+X 8 hw2.adb
+2U11*hw2 2b11 19l5 19t8
+5a17 Line{string} 9r39
+6i17 Num{integer} 9m17 10r31
+7i17 C{integer}
+10i21 C{integer} 11r28 12r57
+X 26 text_io.ads
+24K9*Text_IO=24:29 8|1w6 1r19
+
